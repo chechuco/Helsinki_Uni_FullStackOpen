@@ -46,6 +46,7 @@ const App = () => {
       }
     ]
   }
+  
   let total_ex = 'Total number of exercises: ' 
   total_ex += course.parts[0].exercises + course.parts[1].exercises + course.parts[2].exercises
 
