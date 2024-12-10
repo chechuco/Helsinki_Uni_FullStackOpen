@@ -1,25 +1,11 @@
 import { useState } from 'react'
 
 const App = () => {
-  const [clicks, setClicks] = useState({
-    left: 0,
-    right: 0
-  })
-
-  const handleLeftClick = () => {
-    setClicks({...clicks, left: clicks.left + 1})
-  }
-
-  const handleRightClick = () => {
-    setClicks({...clicks, right: clicks.right + 1})
-  }
+  const [value, setValue] = useState(0)
 
   return (
     <div>
-      {clicks.left}
-      <button onClick={handleLeftClick}>left</button>
-      <button onClick={handleRightClick}>right</button>
-      {clicks.right}
+      <button onClick= > reset to zero</button>
     </div>
   )
 }
